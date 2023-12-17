@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Responsi Praktek</title>
+		<meta name=viewport content=width=device-width,initial-scale=1>
+		<style>
+			@font-face{
+				font-family: 'goodfont';
+				src:url('./more/media/goodfont.ttf');
+			}
+			::-webkit-scrollbar {
+				width: 0;
+			}
+			body{
+				padding:0;
+				margin:0;
+				font-family: goodfont;
+				background: pink;
+			}
+			#app{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+			}
+			.parent{
+				width: 100%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				color:gray;
+			}
+			#nextButton{
+				padding:10px 20px;
+				background:orange;
+				cursor: pointer;
+				border-radius: 10px;
+				border:3px dotted pink;
+				font-weight: bold;color:black;background:white;
+			}
+			#parentBio{
+				width: 400px;
+				height: 400px;
+				border-radius: 20px;
+				border:2px dotted gainsboro;
+				padding:20px;
+			}
+			#upTitle{
+				font-size: 24px;
+				font-weight: bold;
+				padding-bottom:20px;
+				color:black;
+			}
+			#botTitle{
+				font-style: italic;
+			}
+			#smallTitle{
+				font-size: 14px;
+				margin-bottom:50px;
+			}
+			#bioBox{
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+				padding:10px 0;
+				font-size: 14px;
+				border-bottom: 1px dotted gainsboro;
+				color:gray;
+			}
+			.smartWidth{
+				width: 50%;
+			}
+			.footer{
+				height:100px;
+				font-size:12px;
+			}
+			@media screen and (max-width:700px){
+				.smartWidth{
+					width: 80%;
+				}
+				.parent{
+					margin-top:40px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id=app>
+			<div class=parent style=margin-top:0;>
+				<div id=upTitle>Praktek Responsi</div>
+				<div id=botTitle>
+					Web data diri, Review Materi dan Kritik Saran.
+				</div>
+				<div id=smallTitle>
+					-  Aulia Angraini Syahfitri
+				</div>
+				<div id=nextButton>Scroll AJa Bang</div>
+			</div>
+			<div class=parent>
+				<div id="parentBio" style="height:auto;border:none;">
+					<div style=text-align:center;>
+						<img src=./more/media/lia.jpeg style="width:200px;height:200px;object-fit:cover;border-radius:50%;border:2px dotted;">
+					</div>
+					<div id=bioBox>
+						<div>
+							Nama
+						</div>
+						<div><b>Aulia Angraini Syahfitri</b></div>
+					</div>
+					<div id=bioBox>
+						<div>
+							Lahir Di 
+						</div>
+						<div><b>Bengkulu, 26 November 2004</b></div>
+					</div>
+					<div id=bioBox>
+						<div>
+							Npm
+						</div>
+						<div><b>C1C023011</b></div>
+					</div>
+					<div id=bioBox>
+						<div>
+							Asdos
+						</div>
+						<div><b>Mareta  aliana (G1A021038)</b></div>
+					</div>
+					<div id=bioBox>
+						<div>
+							Dosen Pengampu
+						</div>
+						<div><b>IRNANDA PRIYADI ST,MT</b></div>
+					</div>
+					<div id=bioBox style=border-bottom:0;>
+						<div>
+							Prodi
+						</div>
+						<div><b>S1 Akuntansi</b></div>
+					</div>
+				</div>
+			</div>	
+			<div class="parent">
+				<div style="
+					height: 80%;
+					padding:20px;
+					border-radius: 20px;
+					display: flex;
+					flex-direction: column;
+				" class="smartWidth">
+					<div id=upTitle>Review Materi</div>
+					<div style="
+						height:100%;
+						border-radius: 20px;
+					">
+						<div style="
+							padding:30px;
+						">
+							<div>
+								<div style="padding:50px 0;text-align:center;background:white;margin:10px 0;border-radius: 20px;">
+									<img src=./more/media/c++.png>
+								</div>
+								<div>
+									Pada awal praktikum saya dan teman-teman mempelajari tentang apa itu C++ dan cara mengoperasikan C++,lalu pada praktikum ke dua saya dan teman-teman di ajarakan cara membuat scoure code yang jika source code nya di input akan menghasilkan output tulisan "hai(Aulia Angraini Syahfitri), semangat belajar coding ya!,lalu pada praktikum selanjutnya saya dan teman-teman di ajarkan untuk menggunakan aplikasi Developer, Visual code,lalu pada praktikum selanjutnya kami mengulas kembali materi minggu lalu dan belajar bersama dengan kelas lain,dan saya berserta teman-teman bisa mendapatkan nilai plus 10 di pertemuan
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="parent">
+				<div class=smartWidth style=text-align:center;>
+					<div id=upTitle>Kritik & Saran</div>
+					<div>
+						<div>
+							Saya secara spesifik tidak memiliki kritik maupun saran,namun pada tiap-tiap perjalanan pembelajaran saya merasakan panik karna harus di kejar-kejar pemahaman materi yang sangat awam bagi saya seorang maba akuntansi,tapi perjalanan mku coding banyak memberikan pelajaran yang seru dan menarik semoga mku pemrograman coding ini berjalan lebih baik dan lebih baik lagi
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="parent">
+				<div class=smartWidth style=text-align:center;>
+					<div id=upTitle>Penutup</div>
+					<div>
+						<div>
+							"Jadilah perubahan yang ingin kamu lihat di dunia." - Mahatma Gandhi
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="parent footer">
+				Dibuat dengan cinta oleh Aulia Angraini Syahfitri
+			</div>
+		</div>
+	</body>
+</html>
